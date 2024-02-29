@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout de Dos Columnas con Float</title>
+<style>
+  .column {
+    float: left;
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  /* Clearfix para manejar flotadores */
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="column">
+    <h2>GUAU</h2>
+  </div>
+  <div class="column">
+    <h2>MAIU</h2>
+  </div>
+  <div class="column">
+    <h2>OINK</h2>
+  </div>
+  <div class="column">
+    <h2>MUUU</h2>
+  </div>
+  <div class="column">
+    <h2>PIOPIO</h2>
+  </div>
+  <div class="column">
+    <h2>KIKIRIKI</h2>
+  </div>
+  <div class="column">
+    <h2>ROAAAAAAR</h2>
+  </div>
+  <div class="column">
+    <h2>GLUGLUGLU</h2>
+  </div>
+  <div class="column">
+    <h2>MIO MIO</h2>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout de Dos Columnas con Float</title>
+<style>
+
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden; /* Para clearfix */
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #0fed949a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(191, 26, 26);
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  /* Colores para cada columna */
+  .column:nth-child(odd) {
+    background-color: #2416ed; /* gris claro */
+  }
+  .column:nth-child(even) {
+    background-color: #d8bd10; /* gris medio */
+  }
+</style>
