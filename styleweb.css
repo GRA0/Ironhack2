@@ -1,0 +1,160 @@
+@media only screen and (min-width: 480px){
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+.Starters{
+    display: none;
+}
+
+
+.link{ 
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagenes{ 
+    width: 100%;
+}
+
+.todo{
+    display:flex;
+    padding-top: 20px;
+    
+}
+
+
+.columna{
+    display: flex;
+}
+
+.todo2{
+    display:flex;
+    padding-top: 20px;
+    
+}
+
+.tipos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.boton1{
+    display: flex;
+    width: 33%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.boton2{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.tipos2{
+    display:flex;
+    flex-direction: column;
+    align-items:end;
+    margin: 10px;
+}
+
+.boton3{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.link3{
+    display:none;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: blue;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .Starters{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .algo{ 
+        display:flex;
+        justify-content: space-around;
+        padding: 10px;
+
+    }
+
+    body{
+        background-color: aqua;
+    }
+
+
+    .fuego{
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: justify;
+        
+        width: 50%;
+    }
+
+    .Litten{
+
+
+        display:flex;
+        justify-content: flex-end;
+        text-align: justify;
+    }
+    
+    .fuego2{
+        width: 50%;
+    }
+
+    .Pipplup{
+        display:none;
+    }
+
+    #imagenes{ 
+        width: 100%;
+    }
+    
+    .todo2{
+        display:none;
+    }
+    
+    .link2{
+        display: none;
+    }
+
+    .link3{
+        display:flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 20px;
+    }
+}
+
